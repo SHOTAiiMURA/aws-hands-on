@@ -1,0 +1,39 @@
+# AWS 認証情報（絶対にプッシュしない）
+.aws/
+*credentials*
+*secret*
+*.pem
+*.key
+
+# 環境変数ファイル
+.env
+.env.*
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+
+# IDE 設定
+.vscode/settings.json
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# SAM ビルド成果物
+.aws-sam/
+
+# Terraform（今後使う場合）
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# ログ
+*.log
