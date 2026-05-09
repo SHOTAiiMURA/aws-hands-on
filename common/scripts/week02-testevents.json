@@ -1,0 +1,32 @@
+{
+  "create_item": {
+    "httpMethod": "POST",
+    "path": "/items",
+    "pathParameters": null,
+    "body": "{\"name\": \"AWS教科書\", \"description\": \"DVA対策本\", \"price\": 3500}"
+  },
+  "get_all_items": {
+    "httpMethod": "GET",
+    "path": "/items",
+    "pathParameters": null,
+    "body": null
+  },
+  "get_one_item": {
+    "httpMethod": "GET",
+    "path": "/items/ここにIDを入れる",
+    "pathParameters": { "id": "ここにIDを入れる" },
+    "body": null
+  },
+  "update_item": {
+    "httpMethod": "PUT",
+    "path": "/items/ここにIDを入れる",
+    "pathParameters": { "id": "ここにIDを入れる" },
+    "body": "{\"price\": 2980, \"status\": \"on_sale\"}"
+  },
+  "delete_item": {
+    "httpMethod": "DELETE",
+    "path": "/items/ここにIDを入れる",
+    "pathParameters": { "id": "ここにIDを入れる" },
+    "body": null
+  }
+}
